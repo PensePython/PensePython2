@@ -24,12 +24,12 @@ atributo de classe,class attribute,atributo de classe,18,2,An attribute associat
 atributo de instância,instance attribute,atributo de instância,18,3,An attribute associated with an instance of a class.,
 atualização,update,atualização,7,2,An assignment where the new value of the variable depends on the old.,
 avaliar,evaluate,avaliar,2,7,To simplify an expression by performing the operations in order to yield a single value.,
-banco de dados,database,banco de dados,14,11,A file whose contents are organized like a dictionary with keys that correspond to values.,
-bug,bug,-,1,20,An error in a program.,
-busca,search,busca,8,9,A pattern of traversal that stops when it finds what it is looking for.,
-busca,lookup,"busca, pesquisa",11,11,A dictionary operation that takes a key and finds the corresponding value.,
-busca,search,busca,B,10,The problem of locating an element of a collection (like a list or dictionary) or determining that it is not present.,
-busca invertida,reverse lookup,busca invertida,11,12,A dictionary operation that takes a value and finds one or more keys that map to it.,
+banco de dados,database,banco de dados,14,11,A file whose contents are organized like a dictionary with keys that correspond to values.,"Um arquivo onde seus conteúdos são organizados como um dicionário, com chaves que correspondem a valores."
+bug,bug,-,1,20,An error in a program.,Erro em um programa.
+busca,search,busca,8,9,A pattern of traversal that stops when it finds what it is looking for.,Um padrão de travessia que para quando encontra o que está procurando.
+busca,lookup,"busca, pesquisa",11,11,A dictionary operation that takes a key and finds the corresponding value.,Uma operação de dicionário que recebe uma chave e procura o valor correspondente.
+busca,search,busca,B,10,The problem of locating an element of a collection (like a list or dictionary) or determining that it is not present.,O problema de localizar um elemento em uma coleção (como uma lista ou dicionário) ou determinar se ele não está presente.
+busca invertida,reverse lookup,busca invertida,11,12,A dictionary operation that takes a value and finds one or more keys that map to it.,Uma operação de dicionário que recebe um valor e procura por uma ou mais chaves que mapeiam até ele.
 cabeçalho,header,cabeçalho,3,4,The first line of a function definition.,
 caminho,path,caminho,14,7,A string that identifies a file.,
 caminho absoluto,absolute path,caminho absoluto,14,9,A path that starts from the topmost directory in the file system.,
