@@ -1,23 +1,23 @@
 ADOPTED TERM,EN-US TERM,PT-BR TERM,CHAPTER,ORDER,EN-US DEFINITION,PT-BR DEFINITION
-declaração,declaration,declaração,11,20,A statement like global that tells the interpreter something about a variable.,
-decrementar,decrement,decrementar,7,5,An update that decreases the value of a variable.,
-definição de função,function definition,definição de função,3,2,"A statement that creates a new function, specifying its name, parameters, and the statements it contains.",
-delimitador,delimiter,delimitador,10,14,A character or string used to indicate where a string should be split.,
-dependência,dependency,dependência,18,10,"A relationship between two classes where instances of one class use instances of the other class, but do not store them as attributes.",
-depuração,debugging,depuração,1,21,The process of finding and correcting bugs.,
-depuração com patinho de borracha,rubber duck debugging,depuração com patinho de borracha,13,6,"Debugging by explaining your problem to an inanimate object such as a rubber duck. Articulating the problem can help you solve it, even if the rubber duck doesn’t know Python.",
-desempacotamento de tupla,tuple assignment,desempacotamento de tupla,12,2,An assignment with a sequence on the right side and a tuple of variables on the left. The right side is evaluated and then its elements are assigned to the variables on the left.,
+declaração,declaration,declaração,11,20,A statement like global that tells the interpreter something about a variable.,Uma instrução como global que diz ao interpretador algo sobre uma variável.
+decrementar,decrement,decrementar,7,5,An update that decreases the value of a variable.,Uma atualização que reduz o valor de uma variável.
+definição de função,function definition,definição de função,3,2,"A statement that creates a new function, specifying its name, parameters, and the statements it contains.","Uma instrução que cria uma nova função especificando seu nome, parâmetros, e as instruções que contém."
+delimitador,delimiter,delimitador,10,14,A character or string used to indicate where a string should be split.,Um caractere ou string que indica onde uma string deve ser dividida.
+dependência,dependency,dependência,18,10,"A relationship between two classes where instances of one class use instances of the other class, but do not store them as attributes.",Um relacionamento entre duas classes onde instâncias de uma classe usam instâncias de outra classe sem armazená-las como atributos.
+depuração,debugging,depuração,1,21,The process of finding and correcting bugs.,Processo de encontrar e corrigir bugs.
+depuração com patinho de borracha,rubber duck debugging,depuração com patinho de borracha,13,6,"Debugging by explaining your problem to an inanimate object such as a rubber duck. Articulating the problem can help you solve it, even if the rubber duck doesn’t know Python.","Depuração explicando seu problema para um objeto inanimado como um patinho de borracha. Articular o problema pode ajudar a resolvê-lo, mesmo se o patinho de borracha não conheça Python."
+desempacotamento de tupla,tuple assignment,desempacotamento de tupla,12,2,An assignment with a sequence on the right side and a tuple of variables on the left. The right side is evaluated and then its elements are assigned to the variables on the left.,Uma atribuição com uma sequencia no lado direito e uma tupla no esquerdo. O lado direito é avaliado e seus elementos atribuídos às variáveis a esquerda.
 desenvolvimento incremental,incremental development,desenvolvimento incremental,6,3,A program development plan intended to avoid debugging by adding and testing only a small amount of code at a time.,
-desenvolvimento planejado,designed development,desenvolvimento planejado,16,2,A development plan that involves high-level insight into the problem and more planning than incremental development or prototype development.,
-despacho por tipo,type-based dispatch,despacho por tipo,17,7,A programming pattern that checks the type of an operand and invokes different functions for different types.,
-desvio,branch,desvio,5,9,One of the alternative sequences of statements in a conditional statement.,
-determinístico,deterministic,determinístico,13,1,"Pertaining to a program that does the same thing each time it runs, given the same inputs.",
-diagrama de chamadas,call graph,diagrama de chamadas,11,15,"A diagram that shows every frame created during the execution of a program, with an arrow from each caller to each callee.",
-diagrama de classe,class diagram,diagrama de classe,18,11,A diagram that shows the classes in a program and the relationships between them.,
-diagrama de estado,state diagram,diagrama de estado,2,3,A graphical representation of a set of variables and the values they refer to.,
-diagrama de objetos,object diagram,diagrama de objetos,15,9,"A diagram that shows objects, their attributes, and the values of the attributes.",
-diagrama de pilha,stack diagram,diagrama de pilha,3,20,"A graphical representation of a stack of functions, their variables, and the values they refer to.",
-dicionário,dictionary,dicionário,11,2,A mapping from keys to their corresponding values.,
-diretório,directory,diretório,14,6,"A named collection of files, also called a folder.",
-divisão pelo piso,floor division,divisão pelo piso,5,1,"An operator, denoted //, that divides two numbers and rounds down (toward zero) to an integer.",
-docstring,docstring,-,4,9,A string that appears at the top of a function definition to document the function’s interface.,
+desenvolvimento planejado,designed development,desenvolvimento planejado,16,2,A development plan that involves high-level insight into the problem and more planning than incremental development or prototype development.,Um plano de desenvolvimento que envolve alto nível de percepção do problema e mais planejamento que os desenvolvimentos incremental e por protótipo.
+despacho por tipo,type-based dispatch,despacho por tipo,17,7,A programming pattern that checks the type of an operand and invokes different functions for different types.,Um padrão de programação que verifica o tipo de um operando e invoca diferentes funções para diferentes tipos.
+desvio,branch,desvio,5,9,One of the alternative sequences of statements in a conditional statement.,Uma das sequencias de instruções alternativas em uma instrução condicional.
+determinístico,deterministic,determinístico,13,1,"Pertaining to a program that does the same thing each time it runs, given the same inputs.","Diz-se de um programa que faz a mesma coisa a cada execução, dadas as mesmas entradas."
+diagrama de chamadas,call graph,diagrama de chamadas,11,15,"A diagram that shows every frame created during the execution of a program, with an arrow from each caller to each callee.","Um diagrama que mostra todos os frames criados durante a execução de um programa, com uma seta de cada executor para cada executado."
+diagrama de classe,class diagram,diagrama de classe,18,11,A diagram that shows the classes in a program and the relationships between them.,Um diagrama que mostra as classes em um programa e os relacionamentos entre elas.
+diagrama de estado,state diagram,diagrama de estado,2,3,A graphical representation of a set of variables and the values they refer to.,Uma representação gráfica de um conjunto de variáveis e os valores a que se referem.
+diagrama de objetos,object diagram,diagrama de objetos,15,9,"A diagram that shows objects, their attributes, and the values of the attributes.","Um diagrama que mostra objetos, seus atributos, e os valores dos atributos."
+diagrama de pilha,stack diagram,diagrama de pilha,3,20,"A graphical representation of a stack of functions, their variables, and the values they refer to.","Uma representação gráfica de uma pilha de funções, suas variáveis, e os valores a que se referem."
+dicionário,dictionary,dicionário,11,2,A mapping from keys to their corresponding values.,Um mapeamento de chaves aos seus valores correspondentes.
+diretório,directory,diretório,14,6,"A named collection of files, also called a folder.","Uma coleção nomeada de arquivos, também conhecida como pasta."
+divisão pelo piso,floor division,divisão pelo piso,5,1,"An operator, denoted //, that divides two numbers and rounds down (toward zero) to an integer.","Um operador, denotado //, que divide dois números e os arredonda para baixo (em direção ao zero) em um inteiro."
+docstring,docstring,-,4,9,A string that appears at the top of a function definition to document the function’s interface.,Uma string no início de uma definição de função que documenta a assinatura da função.
