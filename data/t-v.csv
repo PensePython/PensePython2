@@ -1,17 +1,17 @@
 ADOPTED TERM,EN-US TERM,PT-BR TERM,CHAPTER,ORDER,EN-US DEFINITION,PT-BR DEFINITION
-tabela de hash,hashtable,tabela de espalhamento,11,8,The algorithm used to implement Python dictionaries.,
-tabela de hash,hashtable,tabela de espalhamento,B,11,A data structure that represents a collection of key-value pairs and performs search in constant time.,
-termo dominante,leading term,"termo dominante, termo de maior expoente",B,4,"In a polynomial, the term with the highest exponent.",
-teste de desempenho,benchmarking,teste de desempenho,13,5,The process of choosing between data structures by implementing alternatives and testing them on a sample of the possible inputs.,
-tipo,type,tipo,1,11,"A category of values. The types we have seen so far are integers (type int), floating-point numbers (type float), and strings (type str).",
-token,token,“símbolo”,1,17,"One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.",
-traceback,traceback,,3,22,"A list of the functions that are executing, printed when an exception occurs.",
-tupla,tuple,tupla,12,1,An immutable sequence of elements.,
-valor,value,valor,1,10,"One of the basic units of data, like a number or string, that a program manipulates.",
-valor,value,valor,11,6,An object that appears in a dictionary as the second part of a key-value pair. This is more specific than our previous use of the word “value”.,
-valor default,default value,valor default,13,3,The value given to an optional parameter if no argument is provided.,
-valor devolvido,return value,valor devolvido,3,10,"The result of a function. If a function call is used as an expression, the return value is the value of the expression.",
-variável,variable,variável,2,1,A name that refers to a value.,
-variável global,global variable,variável global,11,17,A variable defined outside a function. Global variables can be accessed from any function.,
-variável local,local variable,variável local,3,9,A variable defined inside a function. A local variable can only be used inside its function.,
-variável temporária,temporary variable,variável temporária,6,1,A variable used to store an intermediate value in a complex calculation.,
+tabela de hash,hashtable,tabela de espalhamento,11,8,The algorithm used to implement Python dictionaries.,Algoritmo utilizado para implementar dicionários Python.
+tabela de hash,hashtable,tabela de espalhamento,B,11,A data structure that represents a collection of key-value pairs and performs search in constant time.,Uma estrutura de dados que representa uma coleção de pares chave-valor e permite realizar busca em tempo constante.
+termo dominante,leading term,"termo dominante, termo de maior expoente",B,4,"In a polynomial, the term with the highest exponent.",Termo com o maior expoente em um polinômio.
+teste de desempenho,benchmarking,teste de desempenho,13,5,The process of choosing between data structures by implementing alternatives and testing them on a sample of the possible inputs.,Processo de escolher entre estruturas de dados, implementando alternativas e as testando com amostras de possíveis entradas.
+tipo,type,tipo,1,11,"A category of values. The types we have seen so far are integers (type int), floating-point numbers (type float), and strings (type str).",Categoria de valores. Os tipos que vimos até agora são inteiro (tipo int), números de ponto flutuante (tipo float) e strings (tipo str).
+token,token,“símbolo”,1,17,"One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.",Um dos elementos básicos da estrutura sintática de um programa, análogo a uma palavra em uma linguagem natural.
+traceback,traceback,,3,22,"A list of the functions that are executing, printed when an exception occurs.",Lista das funções em execução, impressos quando uma exceção ocorre.
+tupla,tuple,tupla,12,1,An immutable sequence of elements.,Uma sequência imutável de elementos.
+valor,value,valor,1,10,"One of the basic units of data, like a number or string, that a program manipulates.",Uma das unidades básicas de dados, como um número ou uma string, que um programa pode manipular.
+valor,value,valor,11,6,An object that appears in a dictionary as the second part of a key-value pair. This is more specific than our previous use of the word “value”.,Um objeto que aparece em um dicionário como a segunda parte de um par chave-valor. É mais específico que o uso anterior da palavra valor.
+valor default,default value,valor default,13,3,The value given to an optional parameter if no argument is provided.,Valor dado a um parâmetro opcional se nenhum argumento for fornecido.
+valor devolvido,return value,valor devolvido,3,10,"The result of a function. If a function call is used as an expression, the return value is the value of the expression.",Resultado de uma função. Se uma chamada de função for usada como uma expressão, o valor de retorno é o valor da expressão.
+variável,variable,variável,2,1,A name that refers to a value.,Um nome que faz referencia a um valor.
+variável global,global variable,variável global,11,17,A variable defined outside a function. Global variables can be accessed from any function.,Uma variável definida fora de uma função. Variáveis globais podem ser acessadas por qualquer função.
+variável local,local variable,variável local,3,9,A variable defined inside a function. A local variable can only be used inside its function.,Uma variável definida dentro de uma função. Uma variável local só pode ser utilizada dentro da função onde foi definida.
+variável temporária,temporary variable,variável temporária,6,1,A variable used to store an intermediate value in a complex calculation.,Uma variável utilizada para armazenar um valor intermediário em um cálculo complexo.
