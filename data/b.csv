@@ -1,7 +1,7 @@
 ADOPTED TERM,EN-US TERM,PT-BR TERM,CHAPTER,ORDER,EN-US DEFINITION,PT-BR DEFINITION
-banco de dados,database,banco de dados,14,11,A file whose contents are organized like a dictionary with keys that correspond to values.,
-bug,bug,-,1,20,An error in a program.,
-busca,search,busca,8,9,A pattern of traversal that stops when it finds what it is looking for.,
-busca,lookup,"busca, pesquisa",11,11,A dictionary operation that takes a key and finds the corresponding value.,
-busca,search,busca,B,10,The problem of locating an element of a collection (like a list or dictionary) or determining that it is not present.,
-busca invertida,reverse lookup,busca invertida,11,12,A dictionary operation that takes a value and finds one or more keys that map to it.,
+banco de dados,database,banco de dados,14,11,A file whose contents are organized like a dictionary with keys that correspond to values.,"Um arquivo cujo conteúdo está organizado como um dicionário, com chaves que correspondem a valores."
+bug,bug,-,1,20,An error in a program.,Um erro em um programa.
+busca,search,busca,8,9,A pattern of traversal that stops when it finds what it is looking for.,Uma padrão de percurso que pára quando encontra o que estava procurando.
+busca,lookup,"busca, pesquisa",11,11,A dictionary operation that takes a key and finds the corresponding value.,Uma operação de dicionário que pega uma chave e encontra o valor correspondente.
+busca,search,busca,B,10,The problem of locating an element of a collection (like a list or dictionary) or determining that it is not present.,O problema de localizar um elemento de uma coleção (como uma lista ou dicionário) ou determinar que não está presente.
+busca invertida,reverse lookup,busca invertida,11,12,A dictionary operation that takes a value and finds one or more keys that map to it.,Uma operação de dicionário que pega um valor e encontra uma ou mais chaves que estão mapeadas a ele.
