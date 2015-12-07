@@ -2,7 +2,9 @@
 
 """
 Generate consolidated RST glossary file and chapter include files from 
-the CSV glossary files. 
+consolidated CSV glossary file. 
+
+THIS SCRIPT IS NO LONGER USED, SEE ``split_glossary.py``
 """
 
 import glob
@@ -16,7 +18,7 @@ import string
 from join_glossary import expected_entries
 
 RST_PATH = '../book/'
-GLOSSARY_DATA_PATH = '../data'
+GLOSSARY_DATA_PATH = './glossary.csv'
 FIELDS = 'term us_term br_term chapter order us_definition br_definition'.split()
 
 GLOSSARY_HEAD = '''\
@@ -39,7 +41,6 @@ def asciize(txt):
     return ''.join(c for c in unicodedata.normalize('NFD', txt)
                      if c in string.ascii_lowercase)
 
-
 def master_order(entry):
     return asciize(entry.term.casefold()) + '|' + entry.chapter
 
@@ -47,19 +48,15 @@ def master_order(entry):
 def read_glossary():
     master_glossary = []
     glossaries = collections.defaultdict(list)
-    paths = glob.glob(os.path.join(GLOSSARY_DATA_PATH, '*.csv'))
-
-    for nome_arq in paths:
-        with open(nome_arq) as csvfile:
-            reader = csv.DictReader(csvfile, FIELDS)
-            next(reader)  # skip header line
-            for row in reader:
-                row['order'] = int(row['order'])
-                import pdb; pdb.set_trace()
-                entry = GlossaryEntry(**row)
-                #print(entry)
-                glossaries[row['chapter']].append(entry)
-                master_glossary.append(entry)
+    with open(GLOSSARY_DATA_PATH) as csvfile:
+        reader = csv.DictReader(csvfile, FIELDS)
+        next(reader)  # skip header line
+        for row in reader:
+            row['order'] = int(row['order'])
+            entry = GlossaryEntry(**row)
+            #print(entry)
+            glossaries[row['chapter']].append(entry)
+            master_glossary.append(entry)
     return master_glossary, glossaries
 
 
@@ -78,7 +75,6 @@ def formatted_head(entry):
     else:  # adopted US term
         head = '{} ({})'.format(us_term, entry.br_term)
     return head
-
 
 def main():
     master_glossary, chapter_glossaries = read_glossary()
@@ -101,10 +97,8 @@ def main():
         assert len(found) == 1, 'found: {}'.format(len(found))
         out_path = os.path.join(RST_PATH, 'glossary', chapter_id+'.txt')
         glossary = chapter_glossaries[chapter_id]
-        print(out_path)
         with open(out_path, 'wt', encoding='utf-8') as out_file:
             for entry in sorted(glossary, key=operator.attrgetter('order')):
-                print('\t', entry)
                 definition = entry.br_definition.strip() or entry.us_definition.strip()
                 out_file.write('{}\n  {}\n\n'.format(formatted_head(entry), definition))
 

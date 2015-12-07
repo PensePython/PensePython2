@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+"""
+Extract glossary entries from chapters 1-19 and appendix B and create
+a consolidated glossary text file delimited by '|' (pipe characters).
+"""
+
 import glob
 import re
 import os
