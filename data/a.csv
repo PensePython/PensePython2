@@ -1,20 +1,20 @@
 ADOPTED TERM,EN-US TERM,PT-BR TERM,CHAPTER,ORDER,EN-US DEFINITION,PT-BR DEFINITION
-acumulador,accumulator,acumulador,10,4,A variable used in a loop to add up or accumulate a result.,
-algoritmo,algorithm,algoritmo,7,8,A general process for solving a category of problems.,
-aliasing,aliasing,“apelidamento”,10,13,A circumstance where two or more variables refer to the same object.,
-analisar,parse,analisar,1,19,To examine a program and analyze the syntactic structure.,
-análise de algoritmos,analysis of algorithms,análise de algoritmos,B,1,A way to compare algorithms in terms of their run time and/or space requirements.,
-argumento,argument,argumento,3,8,A value provided to a function when the function is called. This value is assigned to the corresponding parameter in the function.,
-argumento nomeado,keyword argument,argumento nomeado,4,5,An argument that includes the name of the parameter as a “keyword”.,
-argumento opcional,optional argument,argumento opcional,8,12,A function or method argument that is not required.,
-argumento posicional,positional argument,argumento posicional,17,5,"An argument that does not include a parameter name, so it is not a keyword argument.",
-arquivo-texto,text file,arquivo-texto,14,5,A sequence of characters stored in permanent storage like a hard drive.,
-"``assert``, instrução",``assert`` statement,instrução ``assert``,16,7,A statement that check a condition and raises an exception if it fails.,
-assinatura,interface,"assinatura, interface",4,6,"A description of how to use a function, including the name and descriptions of the arguments and return value.",
-atribuição,assignment,atribuição,2,2,A statement that assigns a value to a variable.,
-atribuição combinada,augmented assignment,atribuição combinada,10,5,A statement that updates the value of a variable using an operator like ``+=``.,
-atributo,attribute,atributo,15,5,One of the named values associated with an object.,
-atributo de classe,class attribute,atributo de classe,18,2,An attribute associated with a class object. Class attributes are defined inside a class definition but outside any method.,
-atributo de instância,instance attribute,atributo de instância,18,3,An attribute associated with an instance of a class.,
-atualização,update,atualização,7,2,An assignment where the new value of the variable depends on the old.,
-avaliar,evaluate,avaliar,2,7,To simplify an expression by performing the operations in order to yield a single value.,
+acumulador,accumulator,acumulador,10,4,A variable used in a loop to add up or accumulate a result.,Uma variável usada em um laço para somar ou acumular um resultado.
+algoritmo,algorithm,algoritmo,7,8,A general process for solving a category of problems.,Um processo geral para solucionar uma certa categoria de problema.
+aliasing,aliasing,“apelidamento”,10,13,A circumstance where two or more variables refer to the same object.,Uma circunstância em que duas ou mais variáveis se referem ao mesmo objeto.
+analisar,parse,analisar,1,19,To examine a program and analyze the syntactic structure.,Examinar um programa e analisar sua estrutura sintática.
+análise de algoritmos,analysis of algorithms,análise de algoritmos,B,1,A way to compare algorithms in terms of their run time and/or space requirements.,Uma forma de comparar algoritmos em termos do seu tempo de execução e/ou requisitos de espaço.
+argumento,argument,argumento,3,8,A value provided to a function when the function is called. This value is assigned to the corresponding parameter in the function.,Valor fornecido a uma função quando ela é chamada. Este valor é atribuído ao parâmetro correspondente na função.
+argumento nomeado,keyword argument,argumento nomeado,4,5,An argument that includes the name of the parameter as a “keyword”.,Um argumento que inclui o nome do parâmetro como uma palavra-chave.
+argumento opcional,optional argument,argumento opcional,8,12,A function or method argument that is not required.,Argumento que não é obrigatório para uma função ou método.
+argumento posicional,positional argument,argumento posicional,17,5,"An argument that does not include a parameter name, so it is not a keyword argument.","Argumento que não inclui o nome do parâmetro, então não é um argumento nomeado."
+arquivo-texto,text file,arquivo-texto,14,5,A sequence of characters stored in permanent storage like a hard drive.,"Sequência de caracteres armazenado em armazenamento permanente, como um disco rígido."
+"``assert``, instrução",``assert`` statement,instrução ``assert``,16,7,A statement that checks a condition and raises an exception if it fails.,Uma instrução que checa uma condição e levanta uma exceção se ela falhar.
+assinatura,interface,"assinatura, interface",4,6,"A description of how to use a function, including the name and descriptions of the arguments and return value.","Uma descrição de como usar uma função, incluindo o nome da função, descrição dos argumentos e os valores que ela retorna."
+atribuição,assignment,atribuição,2,2,A statement that assigns a value to a variable.,Uma instrução que atribui um valor a uma variável.
+atribuição combinada,augmented assignment,atribuição combinada,10,5,A statement that updates the value of a variable using an operator like ``+=``.,"Uma instrução que atualiza o valor de uma variável usando um operador, como um “+=”."
+atributo,attribute,atributo,15,5,One of the named values associated with an object.,Um dos valores nomeados associados a um objeto.
+atributo de classe,class attribute,atributo de classe,18,2,An attribute associated with a class object. Class attributes are defined inside a class definition but outside any method.,"Um atributo associado com uma classe objeto. Atributos de classe são definidos dentro de uma definição de classe, mas fora de qualquer método."
+atributo de instância,instance attribute,atributo de instância,18,3,An attribute associated with an instance of a class.,Um atributo associado com uma instância de uma classe.
+atualização,update,atualização,7,2,An assignment where the new value of the variable depends on the old.,Uma atribuição em que o novo valor da variável depende da antiga.
+avaliar,evaluate,avaliar,2,7,To simplify an expression by performing the operations in order to yield a single value.,"Simplificar uma expressão através da realização de operações, para obter um valor único."
