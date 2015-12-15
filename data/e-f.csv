@@ -1,26 +1,26 @@
 ADOPTED TERM,EN-US TERM,PT-BR TERM,CHAPTER,ORDER,EN-US DEFINITION,PT-BR DEFINITION
-elemento,element,elemento,10,2,"One of the values in a list (or other sequence), also called items.",
-encapsulamento,encapsulation,encapsulamento,4,3,The process of transforming a sequence of statements into a function definition.,
-encapsulamento de dados,data encapsulation,encapsulamento de dados,18,13,A program development plan that involves a prototype using global variables and a final version that makes the global variables into instance attributes.,
-equivalente,equivalent,equivalente,10,10,Having the same value.,
-erro semântico,semantic error,erro semântico,2,19,An error in a program that makes it do something other than what the programmer intended.,
-erro sintático,syntax error,erro sintático,2,16,An error in a program that makes it impossible to parse (and therefore impossible to interpret).,
-errro estrutural,shape error,errro estrutural,12,8,"An error caused because a value has the wrong shape; that is, the wrong type or size.",
-estrutura de dados,data structure,estrutura de dados,12,7,"A collection of related values, often organized in lists, dictionaries, tuples, etc.",
-exceção,exception,exceção,2,17,An error that is detected while the program is running.,
-executar,execute,executar,2,9,To run a statement and do what it says.,
-explodir,scatter,explodir,12,4,The operation of treating a sequence as a list of arguments.,
-expressão,expression,expressão,2,6,"A combination of variables, operators, and values that represents a single result.",
-expressão booleana,boolean expression,expressão booleana,5,3,An expression whose value is either True or False.,
-expressão condicional,conditional expression,expressão condicional,19,1,"An expression that has one of two values, depending on a condition.",
-expressão geradora,generator expression,expressão geradora,19,3,An expression with a for loop in parentheses that yields a generator object.,
-fachada,veneer,“verniz” ou fachada,18,4,A method or function that provides a different interface to another function without doing much computation.,
-factory,factory,fábrica,19,5,"A function, usually passed as a parameter, used to create objects.",
-filtro,filter,filtro,10,8,A processing pattern that traverses a list and selects the elements that satisfy some criterion.,
-flag,flag,“indicador”,11,19,A boolean variable used to indicate whether a condition is true.,
-fluxo de execução,flow of execution,fluxo de execução,3,19,The order statements run in.,
-frame,frame,,3,21,A box in a stack diagram that represents a function call. It contains the local variables and parameters of the function.,
-função,function,função,3,1,A named sequence of statements that performs some useful operation. Functions may or may not take arguments and may or may not produce a result.,
-função de hash,hash function,função de espalhamento,11,9,A function used by a hashtable to compute the location for a key.,
-função produtiva,fruitful function,função produtiva,3,11,A function that returns a value.,
-função pura,pure function,função pura,16,3,A function that does not modify any of the objects it receives as arguments. Most pure functions are fruitful.,
+elemento,element,elemento,10,2,"One of the values in a list (or other sequence), also called items.",Um dos valores em uma lista (ou outra sequência). O operador colchetes seleciona elementos de uma lista.
+encapsulamento,encapsulation,encapsulamento,4,3,The process of transforming a sequence of statements into a function definition.,O processo de transformar uma sequência de instruções em uma definição de função.
+encapsulamento de dados,data encapsulation,encapsulamento de dados,18,13,A program development plan that involves a prototype using global variables and a final version that makes the global variables into instance attributes.,Plano de desenvolvimento de programa que envolve um protótipo usando variáveis globais e uma versão final que torna as variáveis globais em atributos de instância.
+equivalente,equivalent,equivalente,10,10,Having the same value.,Tem o mesmo valor.
+erro semântico,semantic error,erro semântico,2,19,An error in a program that makes it do something other than what the programmer intended.,Um erro no programa que faz que ele faça algo diferente do que o programador pretendia.
+erro sintático,syntax error,erro sintático,2,16,An error in a program that makes it impossible to parse (and therefore impossible to interpret).,"Um erro em um programa que o torna impossível de analisar (e portanto, impossível de interpretar)."
+errro estrutural,shape error,errro estrutural,12,8,"An error caused because a value has the wrong shape; that is, the wrong type or size.","Um erro causado porquê um valor tem um formato inadequado; isto é, o tipo ou tamanho errado."
+estrutura de dados,data structure,estrutura de dados,12,7,"A collection of related values, often organized in lists, dictionaries, tuples, etc.","Uma coleção de valores relacionados, geralmente organizados em listas, dicionários, tuplas, etc."
+exceção,exception,exceção,2,17,An error that is detected while the program is running.,Um erro que é detectado enquanto o programa está executando.
+executar,execute,executar,2,9,To run a statement and do what it says.,Executar uma declaração e fazer o que ela pede.
+explodir,scatter,explodir,12,4,The operation of treating a sequence as a list of arguments.,A operação de tratar uma sequência como uma lista de argumentos.
+expressão,expression,expressão,2,6,"A combination of variables, operators, and values that represents a single result.",Uma combinação de operadores e operandos (variáveis e valores) que tem valor simples como resultado.
+expressão booleana,boolean expression,expressão booleana,5,3,An expression whose value is either True or False.,Uma expressão que é ou verdadeira ou falsa.
+expressão condicional,conditional expression,expressão condicional,19,1,"An expression that has one of two values, depending on a condition.","Uma expressão que tem um de dois valores, dependendo de uma condição."
+expressão geradora,generator expression,expressão geradora,19,3,An expression with a for loop in parentheses that yields a generator object.,Uma expressão com um loop for em parênteses que produz um objeto gerador.
+fachada,veneer,“verniz” ou fachada,18,4,A method or function that provides a different interface to another function without doing much computation.,Um método ou função que fornece uma interface diferente para outra função sem fazer muita cálculo.
+factory,factory,fábrica,19,5,"A function, usually passed as a parameter, used to create objects.","Uma função, normalmente passada como um parâmetro, usada para criar objetos."
+filtro,filter,filtro,10,8,A processing pattern that traverses a list and selects the elements that satisfy some criterion.,Um padrão de processamento que percorre uma lista e seleciona os elementos que satisfazem algum critério.
+flag,flag,“indicador”,11,19,A boolean variable used to indicate whether a condition is true.,Uma váriável do tipo boolean usada para indicar se uma condição é verdadeira.
+fluxo de execução,flow of execution,fluxo de execução,3,19,The order statements run in.,A ordem em que comandos são executados durante a execução de um programa.
+frame,frame,,3,21,A box in a stack diagram that represents a function call. It contains the local variables and parameters of the function.,Uma caixa em um diagrama da pilha que representa uma chamada de função. Ela contém as variáveis locais e os parâmetros da função.
+função,function,função,3,1,A named sequence of statements that performs some useful operation. Functions may or may not take arguments and may or may not produce a result.,Uma sequên ia de comandos com um nome que executa operações úteis. Funções podem ou não ter parâmetros e podem ou não produzir um resultado.
+função de hash,hash function,função de espalhamento,11,9,A function used by a hashtable to compute the location for a key.,Uma função de uma tabela de hash utilizada para calcular a localização de uma chave.
+função produtiva,fruitful function,função produtiva,3,11,A function that returns a value.,Uma função que retorna um valor ao invés de None.
+função pura,pure function,função pura,16,3,A function that does not modify any of the objects it receives as arguments. Most pure functions are fruitful.,Uma função que não produz efeitos colaterais. Funções puras apenas  alteram os estado (variáveis) das funções que a chamam através de valores de retorno.
